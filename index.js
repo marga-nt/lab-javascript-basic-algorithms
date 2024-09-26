@@ -17,3 +17,18 @@ if (hacker1.length > hacker2.length) {
 
 
 // Iteration 3: Loops
+
+const arrayLetras1 = hacker1.toUpperCase().split('');
+console.log (arrayLetras1);
+
+const arrayLetras2 = hacker2.split('');
+const countLetras2 = arrayLetras2.length - 1;
+const arrayReves = [];
+
+for (let i = countLetras2; i >= 0 ; i--) {
+    arrayReves.push(arrayLetras2[i]); 
+}
+
+console.log(arrayReves.join(''));
+
+
