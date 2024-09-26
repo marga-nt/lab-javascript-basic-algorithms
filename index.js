@@ -1,5 +1,9 @@
 // Iteration 1: Names and Input
+const hacker1 = "Antonio";
+console.log (`The diver's name is ${hacker1}`);
 
+const hacker2 = "Tito";
+console.log (`The navigator´s name is ${hacker2}`);
 
 // Iteration 2: Conditionals
 
